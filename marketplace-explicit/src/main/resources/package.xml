@@ -1,5 +1,9 @@
 <!-- See documentation at http://doc.nuxeo.com/x/HgIz -->
+<<<<<<< HEAD
 <package type="addon" name="nuxeo-classification" version="@VERSION@">
+=======
+<package type="addon" name="nuxeo-shared-bookmarks" version="@VERSION@">
+>>>>>>> NXP-12741: Add exisiting marketplace generation in a new repository
   <title>Nuxeo Shared Bookmarks</title>
   <description>
     <p>This addon adds possibility to bookmark documents inside folders.</p>
