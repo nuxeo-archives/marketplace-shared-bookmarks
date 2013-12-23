@@ -15,7 +15,7 @@
     <copy todir="${outdir}/marketplace">
       <fileset dir="src/main/resources" />
       <filterset>
-        <filter token="VERSION" value="${classification.marketplace.version}" />
+        <filter token="VERSION" value="${marketplace.classification.version}" />
         <filter token="DISTRIB_VERSION" value="${nuxeo.version}" />
       </filterset>
     </copy>
@@ -26,9 +26,9 @@
       <artifact:resolveFile key="org.nuxeo.ecm.platform:nuxeo-classification-web::jar" />
     </copy>
 
-    <zip destfile="${outdir}/${maven.project.artifactId}-${classification.marketplace.version}.zip"
+    <zip destfile="${outdir}/${maven.project.artifactId}-${marketplace.classification.version}.zip"
          basedir="${outdir}/marketplace" />
-    <artifact:attach file="${outdir}/${maven.project.artifactId}-${classification.marketplace.version}.zip"
+    <artifact:attach file="${outdir}/${maven.project.artifactId}-${marketplace.classification.version}.zip"
                      target="${maven.project.groupId}:${maven.project.artifactId}"
                      type="zip" />
   </target>
