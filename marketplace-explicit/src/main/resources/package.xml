@@ -18,6 +18,7 @@
   <supported>true</supported>
   <platforms>
     <platform>cap-@DISTRIB_VERSION@</platform>
+    <platform>cap-5.8</platform>
   </platforms>
   <!-- Dependencies on other packages -->
   <dependencies>
