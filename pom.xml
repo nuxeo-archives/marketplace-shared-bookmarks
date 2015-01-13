@@ -10,10 +10,10 @@
   <artifactId>shared-bookmarks-marketplace-parent</artifactId>
   <packaging>pom</packaging>
   <name>Nuxeo Platform Shared Bookmarks packaging</name>
-  <version>1.2.0-SNAPSHOT</version>
+  <version>1.3.0-SNAPSHOT</version>
 
   <properties>
-    <marketplace.classification.version>1.2.0-SNAPSHOT</marketplace.classification.version>
+    <marketplace.classification.version>1.3.0-SNAPSHOT</marketplace.classification.version>
     <nuxeo.version>7.1-SNAPSHOT</nuxeo.version>
   </properties>
 
