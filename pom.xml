@@ -39,12 +39,6 @@
         <version>${marketplace.classification.version}</version>
         <type>zip</type>
       </dependency>
-      <dependency>
-        <groupId>org.nuxeo.ecm.platform</groupId>
-        <artifactId>nuxeo-classification-parent</artifactId>
-        <version>${nuxeo.version}</version>
-        <type>import</type>
-      </dependency>
     </dependencies>
   </dependencyManagement>
 

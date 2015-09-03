@@ -15,7 +15,7 @@
             value="file:${out.dir}/nuxeo-shared-bookmark-marketplace-${marketplace.classification.version}.zip" />
   <target name="prepare-environment" depends="_init,prepare-db,prepare-tomcat,prepare-jboss">
     <copy todir="${out.dir}">
-      <artifact:resolveFile key="org.nuxeo.ecm.platform:nuxeo-shared-bookmark-marketplace::zip" />
+      <artifact:file key="org.nuxeo.ecm.platform:nuxeo-shared-bookmark-marketplace::zip" />
     </copy>
   </target>
 

@@ -20,9 +20,9 @@
     </copy>
 
     <copy todir="${outdir}/marketplace/install/bundles">
-      <artifact:resolveFile key="org.nuxeo.ecm.platform:nuxeo-classification-api::jar" />
-      <artifact:resolveFile key="org.nuxeo.ecm.platform:nuxeo-classification-core::jar" />
-      <artifact:resolveFile key="org.nuxeo.ecm.platform:nuxeo-classification-web::jar" />
+      <artifact:file key="org.nuxeo.ecm.platform:nuxeo-classification-api" />
+      <artifact:file key="org.nuxeo.ecm.platform:nuxeo-classification-core" />
+      <artifact:file key="org.nuxeo.ecm.platform:nuxeo-classification-web" />
     </copy>
 
     <zip destfile="${outdir}/${maven.project.artifactId}-${marketplace.classification.version}.zip"
