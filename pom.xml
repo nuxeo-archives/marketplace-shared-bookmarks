@@ -19,6 +19,7 @@
 
   <modules>
     <module>marketplace-explicit</module>
+	<module>ftest/webdriver</module>
   </modules>
 
   <profiles>
