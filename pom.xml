@@ -19,14 +19,13 @@
 
   <modules>
     <module>marketplace-explicit</module>
-	<module>ftest/webdriver</module>
   </modules>
 
   <profiles>
     <profile>
       <id>ftest</id>
       <modules>
-        <module>ftest/selenium</module>
+        <module>ftest/webdriver</module>
       </modules>
     </profile>
   </profiles>
